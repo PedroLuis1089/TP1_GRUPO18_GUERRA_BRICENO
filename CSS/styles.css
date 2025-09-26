@@ -1,0 +1,129 @@
+body {
+    font-family: 'Poller One', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #7F9C96;
+    font-size: clamp(14px, 1.2vw, 18px);
+}
+
+h1 {
+    font-weight: 900;
+    font-size: clamp(24px, 4vw, 36px);
+}
+
+h2 {
+    font-weight: 900;
+    font-size: clamp(20px, 3vw, 28px);
+}
+
+p {
+    font-weight: 500;
+    font-size: clamp(14px, 1.2vw, 16px);
+}
+
+header {
+    background-image: url("../Imagenes/fondoIndex.png");
+    background-size: 100% 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    color: #4D7C8A;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: clamp(15px, 2vw, 30px);
+}
+
+main {
+    text-align: center;
+}
+
+.group-cards {
+    display: none;
+    justify-content: center;
+    gap: clamp(10px, 2vw, 20px);
+    flex-wrap: wrap;
+}
+
+.card {
+    display: block;
+    text-decoration: none;
+    border: 1px solid black;
+    background: #4D7C8A;
+    color: black;
+    padding: clamp(10px, 1.5vw, 20px);
+    border-radius: 12px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    width: clamp(200px, 25%, 300px);
+    text-align: center;
+    font-size: clamp(14px, 1vw, 16px);
+}
+
+.card:hover {
+    transform: translate(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+#integrantes-del-grupo {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#integrantes-del-grupo:hover {
+    color: #4D7C8A;
+    transform: scale(1.05);
+}
+
+.bitacora {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: clamp(20px, 3vw, 28px);
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.bitacora:hover {
+    color: #4D7C8A;
+    transform: scale(1.05);
+}
+
+@media (max-width: 400px) {
+    .group-cards {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card {
+        width: 90%;
+        padding: 10px;
+    }
+
+    section {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+    .card {
+        width: clamp(220px, 40%, 280px);
+    }
+
+    section {
+        margin: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card {
+        width: clamp(250px, 25%, 300px);
+    }
+
+    .group-cards {
+        justify-content: space-around;
+    }
+
+    section {
+        margin: 25px 50px;
+    }
+}

@@ -1,0 +1,65 @@
+body {
+    font-family: 'Poller One', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #7F9C96;
+    font-size: clamp(14px, 1.2vw, 18px);
+}
+
+h1 {
+    font-weight: 900;
+    font-size: clamp(24px, 4vw, 36px);
+}
+
+h2 {
+    font-weight: 900;
+    font-size: clamp(20px, 3vw, 28px);
+}
+
+p {
+    text-align: justify;
+    margin: 20px 30px 30px 20px;
+    font-weight: 500;
+    font-size: clamp(14px, 1.2vw, 16px);
+}
+
+header {
+    background-image: url("../Imagenes/fondoBitacora.png");
+    background-size: 100% 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    color: #4D7C8A;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: clamp(15px, 2vw, 30px);
+}
+
+main {
+    text-align: center;
+}
+
+section {
+    margin-top: clamp(10px, 2vw, 30px);
+    margin-bottom: clamp(15px, 3vw, 40px);
+}
+
+footer {
+    text-align: center;
+}
+
+.btn-back {
+    display: inline-block;
+    background-color: #4D7C8A;
+    color: white;
+    padding: clamp(8px, 1vw, 12px) clamp(15px, 2vw, 20px);
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: clamp(14px, 1vw, 16px);
+}
+
+.btn-back:hover {
+    background-color: #1B4079;
+}
