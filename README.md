@@ -56,3 +56,5 @@
     En la página individual de "Veronica" usamos el método addEventListener(), y su función es que al hacer click en la imagen del perfil de Veronica aparezca abajo de la foto información adicional.
 
 ## Enlace al proyecto desplegado
+
+    https://tp1-grupo18-guerra-briceno.vercel.app/
