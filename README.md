@@ -27,6 +27,7 @@
     │   └── stylesPedro.css
     ├── JavaScript/
     │   └── script.js
+    │   └── scriptVero.js
     ├── Imagenes/
     │   ├── fondoBitacora.png
     │   ├── fondoIndex.png
@@ -47,3 +48,11 @@
     └── README.md
 
 ## Funciones JavaScript
+
+    En la portada usamos el método addEventListener(), usando "integrantes" como el elemento al que le agregamos el método, lo que hace que al hacer click en "Quiénes conforman nuestro grupo?" muestre los integrantes del grupo.
+
+    En la página individual "Pedro L." creamos la función cambiarFondo(), y ésta es usada para cambiar el color del fondo de la página individual mante un botón.
+
+    En la página individual de "Veronica" usamos el método addEventListener(), y su función es que al hacer click en la imagen del perfil de Veronica aparezca abajo de la foto información adicional.
+
+## Enlace al proyecto desplegado
